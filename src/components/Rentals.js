@@ -8,26 +8,27 @@ import Rental from "./Rental";
 
 const Rentals = () => {
   const rentals = [
-    { title: "Texas, USA", image: house1, price: "1,541" },
-    { title: "Texas, USA", image: house2, price: "1,541" },
-    { title: "Texas, USA", image: house3, price: "1,541" },
-    { title: "Texas, USA", image: house4, price: "1,541" },
-    { title: "Texas, USA", image: house5, price: "1,541" },
-    { title: "Texas, USA", image: house1, price: "1,541" },
-    { title: "Texas, USA", image: house2, price: "1,541" },
-    { title: "Texas, USA", image: house3, price: "1,541" },
-    { title: "Texas, USA", image: house4, price: "1,541" },
-    { title: "Texas, USA", image: house5, price: "1,541" },
-    { title: "Texas, USA", image: house1, price: "1,541" },
-    { title: "Texas, USA", image: house2, price: "1,541" },
-    { title: "Texas, USA", image: house3, price: "1,541" },
-    { title: "Texas, USA", image: house4, price: "1,541" },
-    { title: "Texas, USA", image: house5, price: "1,541" },
+    { title: "Nashik, India", image: house1, price: "1,541" },
+    { title: "Tarur, India", image: house2, price: "1,541" },
+    { title: "Anjar, India", image: house3, price: "1,541" },
+    { title: "Nandi Hills, India", image: house4, price: "1,541" },
+    { title: "Ooty, India", image: house5, price: "1,541" },
+    { title: "Nashik, India", image: house1, price: "1,541" },
+    { title: "Tarur, India", image: house2, price: "1,541" },
+    { title: "Anjar, India", image: house3, price: "1,541" },
+    { title: "Nandi Hills, India", image: house4, price: "1,541" },
+    { title: "Ooty, India", image: house5, price: "1,541" },
+    { title: "Nashik, India", image: house1, price: "1,541" },
+    { title: "Tarur, India", image: house2, price: "1,541" },
+    { title: "Anjar, India", image: house3, price: "1,541" },
+    { title: "Nandi Hills, India", image: house4, price: "1,541" },
+    { title: "Ooty, India", image: house5, price: "1,541" },
+    { title: "Nandi Hills, India", image: house4, price: "1,541" },
   ];
   return (
     <div className="py-3 sm:py-5">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-        {rentals.map((rental) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4">
+         {rentals.map((rental) => (
           <Rental
             title={rental.title}
             image={rental.image}

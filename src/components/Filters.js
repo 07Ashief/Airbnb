@@ -14,8 +14,8 @@ const Filters = () => {
     { title: "Forest", icon: <BsFillTreeFill /> },
   ];
   return (
-    <div className="   ">
-      <div className="flex justify-start  gap-3 sm:gap-4  mt-4  ">
+    <div className="w-full px-2 sm:px-4 md:px-6 lg:px-8 xl:px-10">
+      <div className="flex flex-wrap justify-start gap-3 sm:gap-4 mt-4">
         {sorting.map((obj) => (
           <Filter title={obj.title} icon={obj.icon} />
         ))}

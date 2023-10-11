@@ -1,15 +1,15 @@
 import React from "react";
-import logo from "../assets/logo1.png";
+import logo from "../assets/airbnb-logo-png-133395.png";
 import { BiWorld, BiUser } from "react-icons/bi";
 import { FiSearch } from "react-icons/fi";
 
 const Navbar = () => {
   return (
-    <div className="border-b sticky top-0 z-50 bg-white/[95%]  ">
+    <div className="border-b sticky top-0 z-50 bg-white/[100%]  ">
       <div className="flex justify-between items-center sm:mx-6 md:mx-10 lg:mx-12 ">
         {/* Left */}
-        <div className="  h-20  flex">
-          <img src={logo} className=" object-cover -my-10" />
+        <div className="h-20 flex items-center">
+          <img src={logo} className="object-center w-25 h-8" alt="Logo" />
         </div>
         {/* Middle */}
         <div className="hidden lg:flex justify-center items-center relative shadow-sm shadow-gray-400 border rounded-full ">
